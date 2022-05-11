@@ -33,7 +33,7 @@ function autoSlide() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  y[slideIndex-1].style.background = "white";
+  y[slideIndex-1].style.background = "orange";
   setTimeout(autoSlide, 3000);
 }
 

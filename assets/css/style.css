@@ -1,28 +1,36 @@
 aside{
   /* width: 100% !important; */
-  height: 482px !important; 
-  float: right!important;
+
+  margin-top: 50px;
+  margin-bottom:0px;
 }
 
-.card{
+/* .card{
   height:200px;
 
-}
+} */
 
 .slideshow{
   max-width:980px;
   margin:auto;
   position:relative;
 }
-.aaa{
+
+ .slideshow>img{
+  transition: all 0.5s ease;
+  height: 353px;
+  width: 100%;
+
+}
+/* .aaa{
   font-size: 60pt;
   color: rgb(48, 13, 131);
   top: 30%;
   padding: 0;
   position: absolute;
-}
+} */
 .btns{
-  color:white;
+  color:rgb(184, 93, 8);
   width:100%;
   text-align: center;
   
@@ -674,7 +682,7 @@ h2{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding:60px 0;
+  padding:50px ;
 }
 
 .section-bg {
