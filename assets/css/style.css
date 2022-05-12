@@ -1,7 +1,43 @@
+.bg-blue{
+  background-color: #03115f ;
+  color: white !important;
+  font-size: 12px;
+}
+.bg-blue>a{
+color: #FF9800 !important;
+}
+
+
+
+.top-header-area{
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#navbarExampleOnHover{
+  justify-content:space-around;
+  margin-left: 10px;
+}
+
+
+
+.dropdown-hover:hover>.dropdown-menu {
+  display: inline-block;
+  }
+  
+  .dropdown-hover>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+  }
+
+
+
 aside{
   /* width: 100% !important; */
-
-  margin-top: 50px;
+width: 100%;
+  /* margin-top: 50px; */
   margin-bottom:0px;
 }
 
@@ -11,14 +47,14 @@ aside{
 } */
 
 .slideshow{
-  max-width:980px;
-  margin:auto;
+  /* max-width:980px; */
+  /* margin:auto; */
   position:relative;
 }
 
  .slideshow>img{
   transition: all 0.5s ease;
-  height: 353px;
+  /* height: 353px; */
   width: 100%;
 
 }
@@ -301,11 +337,11 @@ h2{
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 72px;
+  height: 130px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 15px 0;
+  padding: 15px ;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -327,7 +363,7 @@ h2{
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 45px;
+  max-height: 55px;
 }
 
 #main {
@@ -338,17 +374,24 @@ h2{
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
-  margin: 0;
-  padding: 0;
+.nav-menu {
+  font-size: 100px;
+  margin-left: 10px;
   list-style: none;
+  /* justify-content: center;
+  align-items: center; */
+
 }
 
-.nav-menu > ul > li {
+/* .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
-}
+} */
+
+
+
+
 
 .nav-menu a {
   display: block;
@@ -365,7 +408,7 @@ h2{
   text-decoration: none;
 }
 
-.nav-menu .get-started a {
+.get-started a {
   background: #eb5d1e;
   color: #fff;
   border-radius: 50px;
@@ -374,7 +417,7 @@ h2{
 }
 
 .nav-menu .get-started a:hover {
-  background: #ee7843;
+  background:#0b6bd3;
   color: #fff;
 }
 
