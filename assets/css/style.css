@@ -1,3 +1,29 @@
+.btn-orange{
+  background-color: darkslateblue;
+  color: orange !important;
+}
+.btn-orange a{
+  
+  color: orange !important;
+  font-weight: bold !important;
+}
+
+.btn-outline-warning:hover{
+background-color:#FF9800 !important;
+
+}
+.btn-outline-warning a{
+color: #03115f;
+font-weight: bold !important;
+
+}
+
+
+
+.items{
+  margin: 100px;
+}
+
 .bg-blue{
   background-color: #03115f ;
   color: white !important;
@@ -198,12 +224,12 @@ top: 90px;
       transition: all 0.8s;
   }
 
-  .img-card .card-image:hover img {
+  /* .img-card .card-image:hover img {
       -webkit-transform: scale(1.1);
       -moz-transform: scale(1.1);
       -o-transform: scale(1.1);
       transform: scale(1.1);
-  }        
+  }         */
 
   .img-card .card-text {
       padding: 0 15px 15px;
@@ -1149,9 +1175,9 @@ section {
   transition: 0.3s;
 }
 
-.clients .owl-item img:hover {
+/* .clients .owl-item img:hover {
   opacity: 1;
-}
+} */
 
 .clients .owl-nav, .clients .owl-dots {
   margin-top: 5px;
